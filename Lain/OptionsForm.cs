@@ -36,7 +36,7 @@ namespace Lain
             }
             catch
             {
-                MessageBox.Show("Something went wrong. Please try running Lain as administrator!", "Lain", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Something went wrong. Please try running Loginwise as administrator!", "Lain", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }
 
