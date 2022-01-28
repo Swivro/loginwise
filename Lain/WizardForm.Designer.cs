@@ -187,9 +187,9 @@
             this.passwordStrengthFail.ForeColor = System.Drawing.Color.Tomato;
             this.passwordStrengthFail.Location = new System.Drawing.Point(14, 265);
             this.passwordStrengthFail.Name = "passwordStrengthFail";
-            this.passwordStrengthFail.Size = new System.Drawing.Size(305, 20);
+            this.passwordStrengthFail.Size = new System.Drawing.Size(203, 20);
             this.passwordStrengthFail.TabIndex = 74;
-            this.passwordStrengthFail.Text = "Your master password is not strong enough";
+            this.passwordStrengthFail.Text = "The passwords do not match";
             // 
             // WizardForm
             // 
