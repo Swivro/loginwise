@@ -63,10 +63,10 @@
             this.label1.Location = new System.Drawing.Point(12, 98);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(102, 28);
+            this.label1.Size = new System.Drawing.Size(170, 28);
             this.label1.TabIndex = 56;
             this.label1.Tag = "";
-            this.label1.Text = "Password:";
+            this.label1.Text = "Master Password:";
             // 
             // label2
             // 
@@ -76,10 +76,10 @@
             this.label2.Location = new System.Drawing.Point(12, 178);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(69, 28);
+            this.label2.Size = new System.Drawing.Size(160, 28);
             this.label2.TabIndex = 57;
             this.label2.Tag = "";
-            this.label2.Text = "Verify:";
+            this.label2.Text = "Verify Password:";
             // 
             // txtPassword
             // 
