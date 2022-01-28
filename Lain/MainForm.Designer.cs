@@ -50,10 +50,6 @@
             this.modifyRemoveAll = new System.Windows.Forms.Button();
             this.btnOptions = new System.Windows.Forms.Button();
             this.AccountView = new System.Windows.Forms.DataGridView();
-            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.rightPanel = new System.Windows.Forms.Panel();
             this.btnAnalyze = new System.Windows.Forms.Button();
             this.btnUpdate = new System.Windows.Forms.Button();
@@ -64,6 +60,10 @@
             this.timerAutoLock = new System.Windows.Forms.Timer(this.components);
             this.helperPanel = new System.Windows.Forms.Panel();
             this.leftPanel = new System.Windows.Forms.Panel();
+            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.helperMenu.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.AccountView)).BeginInit();
             this.rightPanel.SuspendLayout();
@@ -386,39 +386,8 @@
             this.AccountView.ShowEditingIcon = false;
             this.AccountView.Size = new System.Drawing.Size(718, 666);
             this.AccountView.TabIndex = 23;
+            this.AccountView.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.AccountView_CellContentClick);
             this.AccountView.CellMouseDoubleClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.AccountView_CellMouseDoubleClick);
-            // 
-            // Column1
-            // 
-            this.Column1.HeaderText = "Title";
-            this.Column1.MinimumWidth = 6;
-            this.Column1.Name = "Column1";
-            this.Column1.ReadOnly = true;
-            this.Column1.Width = 65;
-            // 
-            // Column2
-            // 
-            this.Column2.HeaderText = "Account";
-            this.Column2.MinimumWidth = 6;
-            this.Column2.Name = "Column2";
-            this.Column2.ReadOnly = true;
-            this.Column2.Width = 92;
-            // 
-            // Column3
-            // 
-            this.Column3.HeaderText = "Password";
-            this.Column3.MinimumWidth = 6;
-            this.Column3.Name = "Column3";
-            this.Column3.ReadOnly = true;
-            // 
-            // Column4
-            // 
-            this.Column4.HeaderText = "Link";
-            this.Column4.MinimumWidth = 6;
-            this.Column4.Name = "Column4";
-            this.Column4.ReadOnly = true;
-            this.Column4.Visible = false;
-            this.Column4.Width = 54;
             // 
             // rightPanel
             // 
@@ -568,6 +537,38 @@
             this.leftPanel.Size = new System.Drawing.Size(718, 666);
             this.leftPanel.TabIndex = 24;
             // 
+            // Column1
+            // 
+            this.Column1.HeaderText = "Title";
+            this.Column1.MinimumWidth = 6;
+            this.Column1.Name = "Column1";
+            this.Column1.ReadOnly = true;
+            this.Column1.Width = 65;
+            // 
+            // Column2
+            // 
+            this.Column2.HeaderText = "Username";
+            this.Column2.MinimumWidth = 6;
+            this.Column2.Name = "Column2";
+            this.Column2.ReadOnly = true;
+            this.Column2.Width = 105;
+            // 
+            // Column3
+            // 
+            this.Column3.HeaderText = "Password";
+            this.Column3.MinimumWidth = 6;
+            this.Column3.Name = "Column3";
+            this.Column3.ReadOnly = true;
+            // 
+            // Column4
+            // 
+            this.Column4.HeaderText = "Link";
+            this.Column4.MinimumWidth = 6;
+            this.Column4.Name = "Column4";
+            this.Column4.ReadOnly = true;
+            this.Column4.Visible = false;
+            this.Column4.Width = 64;
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(120F, 120F);
@@ -626,11 +627,11 @@
         private System.Windows.Forms.Panel leftPanel;
         internal System.Windows.Forms.DataGridView AccountView;
         private System.Windows.Forms.ToolStripMenuItem openLinkBtn;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
+        private System.Windows.Forms.Button btnAnalyze;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
-        private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
-        private System.Windows.Forms.Button btnAnalyze;
     }
 }

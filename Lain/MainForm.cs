@@ -620,5 +620,10 @@ namespace Lain
         {
             AnalyzeAccounts();
         }
+
+        private void AccountView_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }
