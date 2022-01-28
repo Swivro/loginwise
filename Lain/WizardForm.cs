@@ -65,20 +65,20 @@ namespace Lain
             {
                 txtPassword.ForeColor = Color.Lime;
                 txtVerify.ForeColor = Color.Lime;
-                passwordStrengthFail.Visible = false;
+                passwordsMatchLabel.Visible = false;
             }
             else
             {
                 txtPassword.ForeColor = Color.Tomato;
                 txtVerify.ForeColor = Color.Tomato;
-                passwordStrengthFail.Visible = true;
+                passwordsMatchLabel.Visible = true;
             }
         }
 
         private void WizardForm_Load(object sender, EventArgs e)
         {
             CheckForIllegalCrossThreadCalls = false;
-            passwordStrengthFail.Visible = false;
+            passwordsMatchLabel.Visible = false;
         }
 
         private void btnExit_Click(object sender, EventArgs e)
