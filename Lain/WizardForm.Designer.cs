@@ -218,7 +218,7 @@
             this.MaximizeBox = false;
             this.Name = "WizardForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Lain";
+            this.Text = "Loginwise Setup";
             this.Load += new System.EventHandler(this.WizardForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
