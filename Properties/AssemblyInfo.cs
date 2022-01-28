@@ -9,7 +9,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("Loginwise")]
-[assembly: AssemblyCopyright("deadmoon © ∞")]
+[assembly: AssemblyCopyright("© Copyright deadmoon, © Copyright Swivro")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
