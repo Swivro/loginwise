@@ -49,7 +49,7 @@ namespace Lain
 
             DeserializeAccounts();
             Key = key;
-            this.Text = string.Format("Lain - {0} accounts", Accounts.Count);
+            this.Text = string.Format("Loginwise - {0} accounts", Accounts.Count);
         }
 
         private void RestoreWindowState()
