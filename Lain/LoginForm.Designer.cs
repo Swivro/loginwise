@@ -43,13 +43,14 @@
             this.status.AutoSize = true;
             this.status.Font = new System.Drawing.Font("Segoe UI Semibold", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.status.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.status.Location = new System.Drawing.Point(10, 7);
+            this.status.Location = new System.Drawing.Point(12, 9);
             this.status.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.status.Name = "status";
-            this.status.Size = new System.Drawing.Size(290, 56);
+            this.status.Size = new System.Drawing.Size(363, 70);
             this.status.TabIndex = 56;
             this.status.Tag = "themeable";
             this.status.Text = "Do NOT forget your password,\r\nyou can\'t restore it";
+            this.status.Click += new System.EventHandler(this.status_Click);
             // 
             // txtPassword
             // 
@@ -57,10 +58,10 @@
             this.txtPassword.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtPassword.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtPassword.ForeColor = System.Drawing.Color.White;
-            this.txtPassword.Location = new System.Drawing.Point(14, 101);
+            this.txtPassword.Location = new System.Drawing.Point(18, 126);
             this.txtPassword.Margin = new System.Windows.Forms.Padding(2);
             this.txtPassword.Name = "txtPassword";
-            this.txtPassword.Size = new System.Drawing.Size(324, 29);
+            this.txtPassword.Size = new System.Drawing.Size(404, 34);
             this.txtPassword.TabIndex = 60;
             this.txtPassword.UseSystemPasswordChar = true;
             // 
@@ -69,10 +70,10 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Silver;
-            this.label1.Location = new System.Drawing.Point(10, 76);
+            this.label1.Location = new System.Drawing.Point(12, 95);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(83, 21);
+            this.label1.Size = new System.Drawing.Size(102, 28);
             this.label1.TabIndex = 59;
             this.label1.Tag = "";
             this.label1.Text = "Password:";
@@ -89,10 +90,10 @@
             this.btnExit.ForeColor = System.Drawing.Color.White;
             this.btnExit.Image = ((System.Drawing.Image)(resources.GetObject("btnExit.Image")));
             this.btnExit.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnExit.Location = new System.Drawing.Point(191, 183);
+            this.btnExit.Location = new System.Drawing.Point(239, 229);
             this.btnExit.Margin = new System.Windows.Forms.Padding(2);
             this.btnExit.Name = "btnExit";
-            this.btnExit.Size = new System.Drawing.Size(72, 31);
+            this.btnExit.Size = new System.Drawing.Size(90, 39);
             this.btnExit.TabIndex = 63;
             this.btnExit.Tag = "themeable";
             this.btnExit.Text = "Exit";
@@ -111,10 +112,10 @@
             this.btnOk.ForeColor = System.Drawing.Color.White;
             this.btnOk.Image = ((System.Drawing.Image)(resources.GetObject("btnOk.Image")));
             this.btnOk.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnOk.Location = new System.Drawing.Point(268, 183);
+            this.btnOk.Location = new System.Drawing.Point(335, 229);
             this.btnOk.Margin = new System.Windows.Forms.Padding(2);
             this.btnOk.Name = "btnOk";
-            this.btnOk.Size = new System.Drawing.Size(72, 31);
+            this.btnOk.Size = new System.Drawing.Size(90, 39);
             this.btnOk.TabIndex = 62;
             this.btnOk.Tag = "themeable";
             this.btnOk.Text = "OK";
@@ -127,10 +128,10 @@
             this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(311, 101);
+            this.pictureBox1.Location = new System.Drawing.Point(389, 126);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(27, 28);
+            this.pictureBox1.Size = new System.Drawing.Size(33, 34);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 73;
             this.pictureBox1.TabStop = false;
@@ -139,11 +140,11 @@
             // LoginForm
             // 
             this.AcceptButton = this.btnOk;
-            this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(120F, 120F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
             this.CancelButton = this.btnExit;
-            this.ClientSize = new System.Drawing.Size(350, 224);
+            this.ClientSize = new System.Drawing.Size(438, 280);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.btnOk);

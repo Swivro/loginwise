@@ -128,5 +128,10 @@ namespace Lain
                 return;
             }
         }
+
+        private void status_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
