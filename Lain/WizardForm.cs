@@ -65,11 +65,13 @@ namespace Lain
             {
                 txtPassword.ForeColor = Color.Lime;
                 txtVerify.ForeColor = Color.Lime;
+                passwordStrengthFail.Visible = false;
             }
             else
             {
                 txtPassword.ForeColor = Color.Tomato;
                 txtVerify.ForeColor = Color.Tomato;
+                passwordStrengthFail.Visible = true;
             }
         }
 
