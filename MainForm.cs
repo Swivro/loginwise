@@ -441,7 +441,7 @@ namespace Lain
             }
 
             txtSearch.Clear();
-            this.Text = string.Format("Lain {0} - {1} accounts", Program.GetCurrentVersionToString(), Accounts.Count);
+            this.Text = string.Format("Loginwise {0} - {1} accounts", Program.GetCurrentVersionToString(), Accounts.Count);
 
             AccountView.AutoResizeColumns(DataGridViewAutoSizeColumnsMode.AllCells);
             AccountView.Sort(AccountView.Columns[0], ListSortDirection.Ascending);
