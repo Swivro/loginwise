@@ -15,7 +15,7 @@ namespace Lain
 {
     public partial class MainForm : Form
     {
-        readonly string _latestVersionLink = "https://raw.githubusercontent.com/hellzerg/lain/master/version.txt";
+        readonly string _latestVersionLink = "https://raw.githubusercontent.com/Swivro/loginwise/master/version.txt";
 
         readonly string _noNewVersionMessage = "You already have the latest version!";
         readonly string _betaVersionMessage = "You are using an experimental version!";
