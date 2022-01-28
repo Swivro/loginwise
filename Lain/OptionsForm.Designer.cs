@@ -292,9 +292,9 @@
             this.checkBox3.Location = new System.Drawing.Point(18, 459);
             this.checkBox3.Margin = new System.Windows.Forms.Padding(2);
             this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(308, 32);
+            this.checkBox3.Size = new System.Drawing.Size(250, 32);
             this.checkBox3.TabIndex = 79;
-            this.checkBox3.Text = "Start Loginwise with Windows";
+            this.checkBox3.Text = "Start Loginwise with OS";
             this.checkBox3.UseVisualStyleBackColor = true;
             this.checkBox3.CheckedChanged += new System.EventHandler(this.checkBox3_CheckedChanged);
             // 
