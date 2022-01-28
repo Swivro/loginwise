@@ -135,6 +135,7 @@ namespace Lain
             }
 
             txtPassword.Text = RandomPassword.Generate(Convert.ToInt32(txtMaxRandomChars.Text));
+            MessageBox.Show("Secure password generated.");
         }
 
         private void txtName_KeyDown(object sender, KeyEventArgs e)
