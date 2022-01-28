@@ -89,7 +89,7 @@
             this.removeToolStripMenuItem});
             this.helperMenu.Name = "helperMenu";
             this.helperMenu.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
-            this.helperMenu.Size = new System.Drawing.Size(186, 166);
+            this.helperMenu.Size = new System.Drawing.Size(215, 190);
             // 
             // copyToolStripMenuItem
             // 
@@ -97,7 +97,7 @@
             this.copyToolStripMenuItem.ForeColor = System.Drawing.Color.White;
             this.copyToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("copyToolStripMenuItem.Image")));
             this.copyToolStripMenuItem.Name = "copyToolStripMenuItem";
-            this.copyToolStripMenuItem.Size = new System.Drawing.Size(185, 26);
+            this.copyToolStripMenuItem.Size = new System.Drawing.Size(214, 30);
             this.copyToolStripMenuItem.Text = "Copy Account";
             this.copyToolStripMenuItem.Click += new System.EventHandler(this.copyToolStripMenuItem_Click);
             // 
@@ -107,7 +107,7 @@
             this.toolStripMenuItem1.ForeColor = System.Drawing.Color.White;
             this.toolStripMenuItem1.Image = ((System.Drawing.Image)(resources.GetObject("toolStripMenuItem1.Image")));
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(185, 26);
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(214, 30);
             this.toolStripMenuItem1.Text = "Copy Password";
             this.toolStripMenuItem1.Click += new System.EventHandler(this.toolStripMenuItem1_Click);
             // 
@@ -117,14 +117,14 @@
             this.openLinkBtn.ForeColor = System.Drawing.Color.White;
             this.openLinkBtn.Image = ((System.Drawing.Image)(resources.GetObject("openLinkBtn.Image")));
             this.openLinkBtn.Name = "openLinkBtn";
-            this.openLinkBtn.Size = new System.Drawing.Size(185, 26);
+            this.openLinkBtn.Size = new System.Drawing.Size(214, 30);
             this.openLinkBtn.Text = "Open Link";
             this.openLinkBtn.Click += new System.EventHandler(this.openLinkBtn_Click);
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(182, 6);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(211, 6);
             // 
             // newToolStripMenuItem
             // 
@@ -132,7 +132,7 @@
             this.newToolStripMenuItem.ForeColor = System.Drawing.Color.White;
             this.newToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("newToolStripMenuItem.Image")));
             this.newToolStripMenuItem.Name = "newToolStripMenuItem";
-            this.newToolStripMenuItem.Size = new System.Drawing.Size(185, 26);
+            this.newToolStripMenuItem.Size = new System.Drawing.Size(214, 30);
             this.newToolStripMenuItem.Text = "New";
             this.newToolStripMenuItem.Click += new System.EventHandler(this.newToolStripMenuItem_Click);
             // 
@@ -142,7 +142,7 @@
             this.ediToolStripMenuItem.ForeColor = System.Drawing.Color.White;
             this.ediToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("ediToolStripMenuItem.Image")));
             this.ediToolStripMenuItem.Name = "ediToolStripMenuItem";
-            this.ediToolStripMenuItem.Size = new System.Drawing.Size(185, 26);
+            this.ediToolStripMenuItem.Size = new System.Drawing.Size(214, 30);
             this.ediToolStripMenuItem.Text = "Edit";
             this.ediToolStripMenuItem.Click += new System.EventHandler(this.ediToolStripMenuItem_Click);
             // 
@@ -152,7 +152,7 @@
             this.removeToolStripMenuItem.ForeColor = System.Drawing.Color.White;
             this.removeToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("removeToolStripMenuItem.Image")));
             this.removeToolStripMenuItem.Name = "removeToolStripMenuItem";
-            this.removeToolStripMenuItem.Size = new System.Drawing.Size(185, 26);
+            this.removeToolStripMenuItem.Size = new System.Drawing.Size(214, 30);
             this.removeToolStripMenuItem.Text = "Delete";
             this.removeToolStripMenuItem.Click += new System.EventHandler(this.removeToolStripMenuItem_Click);
             // 
@@ -169,10 +169,10 @@
             this.btnAdd.ForeColor = System.Drawing.Color.White;
             this.btnAdd.Image = ((System.Drawing.Image)(resources.GetObject("btnAdd.Image")));
             this.btnAdd.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnAdd.Location = new System.Drawing.Point(8, 8);
+            this.btnAdd.Location = new System.Drawing.Point(10, 10);
             this.btnAdd.Margin = new System.Windows.Forms.Padding(2);
             this.btnAdd.Name = "btnAdd";
-            this.btnAdd.Size = new System.Drawing.Size(100, 31);
+            this.btnAdd.Size = new System.Drawing.Size(125, 39);
             this.btnAdd.TabIndex = 63;
             this.btnAdd.Tag = "themeable";
             this.btnAdd.Text = "New";
@@ -193,10 +193,10 @@
             this.btnRemove.ForeColor = System.Drawing.Color.White;
             this.btnRemove.Image = ((System.Drawing.Image)(resources.GetObject("btnRemove.Image")));
             this.btnRemove.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnRemove.Location = new System.Drawing.Point(8, 79);
+            this.btnRemove.Location = new System.Drawing.Point(10, 99);
             this.btnRemove.Margin = new System.Windows.Forms.Padding(2);
             this.btnRemove.Name = "btnRemove";
-            this.btnRemove.Size = new System.Drawing.Size(100, 34);
+            this.btnRemove.Size = new System.Drawing.Size(125, 42);
             this.btnRemove.TabIndex = 64;
             this.btnRemove.Tag = "themeable";
             this.btnRemove.Text = "Delete";
@@ -217,10 +217,10 @@
             this.btnModify.ForeColor = System.Drawing.Color.White;
             this.btnModify.Image = ((System.Drawing.Image)(resources.GetObject("btnModify.Image")));
             this.btnModify.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnModify.Location = new System.Drawing.Point(8, 42);
+            this.btnModify.Location = new System.Drawing.Point(10, 52);
             this.btnModify.Margin = new System.Windows.Forms.Padding(2);
             this.btnModify.Name = "btnModify";
-            this.btnModify.Size = new System.Drawing.Size(100, 34);
+            this.btnModify.Size = new System.Drawing.Size(125, 42);
             this.btnModify.TabIndex = 65;
             this.btnModify.Tag = "themeable";
             this.btnModify.Text = "Edit";
@@ -241,10 +241,10 @@
             this.btnLock.ForeColor = System.Drawing.Color.White;
             this.btnLock.Image = ((System.Drawing.Image)(resources.GetObject("btnLock.Image")));
             this.btnLock.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnLock.Location = new System.Drawing.Point(8, 155);
+            this.btnLock.Location = new System.Drawing.Point(10, 194);
             this.btnLock.Margin = new System.Windows.Forms.Padding(2);
             this.btnLock.Name = "btnLock";
-            this.btnLock.Size = new System.Drawing.Size(100, 34);
+            this.btnLock.Size = new System.Drawing.Size(125, 42);
             this.btnLock.TabIndex = 67;
             this.btnLock.Tag = "themeable";
             this.btnLock.Text = "Lock";
@@ -265,10 +265,10 @@
             this.btnAbout.ForeColor = System.Drawing.Color.White;
             this.btnAbout.Image = ((System.Drawing.Image)(resources.GetObject("btnAbout.Image")));
             this.btnAbout.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnAbout.Location = new System.Drawing.Point(8, 523);
+            this.btnAbout.Location = new System.Drawing.Point(10, 655);
             this.btnAbout.Margin = new System.Windows.Forms.Padding(2);
             this.btnAbout.Name = "btnAbout";
-            this.btnAbout.Size = new System.Drawing.Size(100, 34);
+            this.btnAbout.Size = new System.Drawing.Size(125, 42);
             this.btnAbout.TabIndex = 70;
             this.btnAbout.Tag = "themeable";
             this.btnAbout.Text = "About";
@@ -289,10 +289,10 @@
             this.modifyRemoveAll.ForeColor = System.Drawing.Color.White;
             this.modifyRemoveAll.Image = ((System.Drawing.Image)(resources.GetObject("modifyRemoveAll.Image")));
             this.modifyRemoveAll.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.modifyRemoveAll.Location = new System.Drawing.Point(8, 193);
+            this.modifyRemoveAll.Location = new System.Drawing.Point(10, 241);
             this.modifyRemoveAll.Margin = new System.Windows.Forms.Padding(2);
             this.modifyRemoveAll.Name = "modifyRemoveAll";
-            this.modifyRemoveAll.Size = new System.Drawing.Size(100, 34);
+            this.modifyRemoveAll.Size = new System.Drawing.Size(125, 42);
             this.modifyRemoveAll.TabIndex = 69;
             this.modifyRemoveAll.Tag = "themeable";
             this.modifyRemoveAll.Text = "Delete all";
@@ -313,10 +313,10 @@
             this.btnOptions.ForeColor = System.Drawing.Color.White;
             this.btnOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnOptions.Image")));
             this.btnOptions.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnOptions.Location = new System.Drawing.Point(8, 449);
+            this.btnOptions.Location = new System.Drawing.Point(10, 562);
             this.btnOptions.Margin = new System.Windows.Forms.Padding(2);
             this.btnOptions.Name = "btnOptions";
-            this.btnOptions.Size = new System.Drawing.Size(100, 34);
+            this.btnOptions.Size = new System.Drawing.Size(125, 42);
             this.btnOptions.TabIndex = 68;
             this.btnOptions.Tag = "themeable";
             this.btnOptions.Text = "Options";
@@ -365,7 +365,7 @@
             this.AccountView.EnableHeadersVisualStyles = false;
             this.AccountView.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
             this.AccountView.Location = new System.Drawing.Point(0, 0);
-            this.AccountView.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
+            this.AccountView.Margin = new System.Windows.Forms.Padding(2, 5, 2, 5);
             this.AccountView.Name = "AccountView";
             this.AccountView.ReadOnly = true;
             this.AccountView.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
@@ -384,7 +384,7 @@
             this.AccountView.ShowCellErrors = false;
             this.AccountView.ShowCellToolTips = false;
             this.AccountView.ShowEditingIcon = false;
-            this.AccountView.Size = new System.Drawing.Size(574, 532);
+            this.AccountView.Size = new System.Drawing.Size(718, 666);
             this.AccountView.TabIndex = 23;
             this.AccountView.CellMouseDoubleClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.AccountView_CellMouseDoubleClick);
             // 
@@ -394,7 +394,7 @@
             this.Column1.MinimumWidth = 6;
             this.Column1.Name = "Column1";
             this.Column1.ReadOnly = true;
-            this.Column1.Width = 53;
+            this.Column1.Width = 65;
             // 
             // Column2
             // 
@@ -402,7 +402,7 @@
             this.Column2.MinimumWidth = 6;
             this.Column2.Name = "Column2";
             this.Column2.ReadOnly = true;
-            this.Column2.Width = 75;
+            this.Column2.Width = 92;
             // 
             // Column3
             // 
@@ -410,11 +410,11 @@
             this.Column3.MinimumWidth = 6;
             this.Column3.Name = "Column3";
             this.Column3.ReadOnly = true;
-            this.Column3.Width = 80;
             // 
             // Column4
             // 
             this.Column4.HeaderText = "Link";
+            this.Column4.MinimumWidth = 6;
             this.Column4.Name = "Column4";
             this.Column4.ReadOnly = true;
             this.Column4.Visible = false;
@@ -433,10 +433,10 @@
             this.rightPanel.Controls.Add(this.btnModify);
             this.rightPanel.Controls.Add(this.btnLock);
             this.rightPanel.Dock = System.Windows.Forms.DockStyle.Right;
-            this.rightPanel.Location = new System.Drawing.Point(574, 0);
+            this.rightPanel.Location = new System.Drawing.Point(718, 0);
             this.rightPanel.Margin = new System.Windows.Forms.Padding(2);
             this.rightPanel.Name = "rightPanel";
-            this.rightPanel.Size = new System.Drawing.Size(118, 567);
+            this.rightPanel.Size = new System.Drawing.Size(147, 709);
             this.rightPanel.TabIndex = 72;
             // 
             // btnAnalyze
@@ -452,10 +452,10 @@
             this.btnAnalyze.ForeColor = System.Drawing.Color.White;
             this.btnAnalyze.Image = ((System.Drawing.Image)(resources.GetObject("btnAnalyze.Image")));
             this.btnAnalyze.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnAnalyze.Location = new System.Drawing.Point(8, 117);
+            this.btnAnalyze.Location = new System.Drawing.Point(10, 146);
             this.btnAnalyze.Margin = new System.Windows.Forms.Padding(2);
             this.btnAnalyze.Name = "btnAnalyze";
-            this.btnAnalyze.Size = new System.Drawing.Size(100, 34);
+            this.btnAnalyze.Size = new System.Drawing.Size(125, 42);
             this.btnAnalyze.TabIndex = 72;
             this.btnAnalyze.Tag = "themeable";
             this.btnAnalyze.Text = "Analyze";
@@ -476,10 +476,10 @@
             this.btnUpdate.ForeColor = System.Drawing.Color.White;
             this.btnUpdate.Image = ((System.Drawing.Image)(resources.GetObject("btnUpdate.Image")));
             this.btnUpdate.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnUpdate.Location = new System.Drawing.Point(8, 486);
+            this.btnUpdate.Location = new System.Drawing.Point(10, 609);
             this.btnUpdate.Margin = new System.Windows.Forms.Padding(2);
             this.btnUpdate.Name = "btnUpdate";
-            this.btnUpdate.Size = new System.Drawing.Size(100, 34);
+            this.btnUpdate.Size = new System.Drawing.Size(125, 42);
             this.btnUpdate.TabIndex = 71;
             this.btnUpdate.Tag = "themeable";
             this.btnUpdate.Text = "Update";
@@ -497,7 +497,7 @@
             this.topPanel.Location = new System.Drawing.Point(0, 0);
             this.topPanel.Margin = new System.Windows.Forms.Padding(2);
             this.topPanel.Name = "topPanel";
-            this.topPanel.Size = new System.Drawing.Size(574, 35);
+            this.topPanel.Size = new System.Drawing.Size(718, 43);
             this.topPanel.TabIndex = 73;
             // 
             // clearPic
@@ -505,10 +505,10 @@
             this.clearPic.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.clearPic.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.clearPic.Image = ((System.Drawing.Image)(resources.GetObject("clearPic.Image")));
-            this.clearPic.Location = new System.Drawing.Point(541, 3);
+            this.clearPic.Location = new System.Drawing.Point(677, 4);
             this.clearPic.Margin = new System.Windows.Forms.Padding(2);
             this.clearPic.Name = "clearPic";
-            this.clearPic.Size = new System.Drawing.Size(28, 27);
+            this.clearPic.Size = new System.Drawing.Size(35, 34);
             this.clearPic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.clearPic.TabIndex = 71;
             this.clearPic.TabStop = false;
@@ -522,10 +522,10 @@
             this.txtSearch.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtSearch.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtSearch.ForeColor = System.Drawing.Color.White;
-            this.txtSearch.Location = new System.Drawing.Point(63, 4);
+            this.txtSearch.Location = new System.Drawing.Point(79, 5);
             this.txtSearch.Margin = new System.Windows.Forms.Padding(2);
             this.txtSearch.Name = "txtSearch";
-            this.txtSearch.Size = new System.Drawing.Size(506, 22);
+            this.txtSearch.Size = new System.Drawing.Size(633, 27);
             this.txtSearch.TabIndex = 74;
             this.txtSearch.TextChanged += new System.EventHandler(this.txtPassword_TextChanged);
             // 
@@ -534,10 +534,10 @@
             this.label27.AutoSize = true;
             this.label27.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label27.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.label27.Location = new System.Drawing.Point(2, 5);
+            this.label27.Location = new System.Drawing.Point(2, 6);
             this.label27.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(63, 21);
+            this.label27.Size = new System.Drawing.Size(77, 28);
             this.label27.TabIndex = 71;
             this.label27.Tag = "themeable";
             this.label27.Text = "Search:";
@@ -551,10 +551,10 @@
             // 
             this.helperPanel.Controls.Add(this.leftPanel);
             this.helperPanel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.helperPanel.Location = new System.Drawing.Point(0, 35);
+            this.helperPanel.Location = new System.Drawing.Point(0, 43);
             this.helperPanel.Margin = new System.Windows.Forms.Padding(2);
             this.helperPanel.Name = "helperPanel";
-            this.helperPanel.Size = new System.Drawing.Size(574, 532);
+            this.helperPanel.Size = new System.Drawing.Size(718, 666);
             this.helperPanel.TabIndex = 74;
             // 
             // leftPanel
@@ -565,15 +565,15 @@
             this.leftPanel.Location = new System.Drawing.Point(0, 0);
             this.leftPanel.Margin = new System.Windows.Forms.Padding(2);
             this.leftPanel.Name = "leftPanel";
-            this.leftPanel.Size = new System.Drawing.Size(574, 532);
+            this.leftPanel.Size = new System.Drawing.Size(718, 666);
             this.leftPanel.TabIndex = 24;
             // 
             // MainForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(120F, 120F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
-            this.ClientSize = new System.Drawing.Size(692, 567);
+            this.ClientSize = new System.Drawing.Size(865, 709);
             this.Controls.Add(this.helperPanel);
             this.Controls.Add(this.topPanel);
             this.Controls.Add(this.rightPanel);
@@ -584,7 +584,7 @@
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Lain ";
+            this.Text = "Loginwise Dashboard";
             this.Activated += new System.EventHandler(this.MainForm_Activated);
             this.Deactivate += new System.EventHandler(this.MainForm_Deactivate);
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.MainForm_FormClosing);
