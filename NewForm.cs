@@ -156,6 +156,7 @@ namespace Lain
             try
             {
                 Clipboard.SetText(txtPassword.Text);
+                MessageBox.Show("Password copied to clipboard.");
             }
             catch { }
         }
