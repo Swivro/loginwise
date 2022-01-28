@@ -20,3 +20,6 @@ https://github.com/Swivro/loginwise/releases
 
 * Latest version: 2.8
 * Released: July 12, 2021
+
+
+Thanks to Lain for providing the foundation of Loginwise.
