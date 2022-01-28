@@ -76,6 +76,7 @@ namespace Lain
         private void WizardForm_Load(object sender, EventArgs e)
         {
             CheckForIllegalCrossThreadCalls = false;
+            passwordStrengthFail.Visible = false;
         }
 
         private void btnExit_Click(object sender, EventArgs e)

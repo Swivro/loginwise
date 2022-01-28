@@ -38,6 +38,7 @@
             this.btnExit = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.passwordStrengthFail = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
@@ -180,6 +181,16 @@
             this.pictureBox2.TabStop = false;
             this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
+            // passwordStrengthFail
+            // 
+            this.passwordStrengthFail.AutoSize = true;
+            this.passwordStrengthFail.ForeColor = System.Drawing.Color.Tomato;
+            this.passwordStrengthFail.Location = new System.Drawing.Point(14, 265);
+            this.passwordStrengthFail.Name = "passwordStrengthFail";
+            this.passwordStrengthFail.Size = new System.Drawing.Size(305, 20);
+            this.passwordStrengthFail.TabIndex = 74;
+            this.passwordStrengthFail.Text = "Your master password is not strong enough";
+            // 
             // WizardForm
             // 
             this.AcceptButton = this.btnOk;
@@ -188,6 +199,7 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
             this.CancelButton = this.btnExit;
             this.ClientSize = new System.Drawing.Size(462, 365);
+            this.Controls.Add(this.passwordStrengthFail);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btnExit);
@@ -226,6 +238,7 @@
         private System.Windows.Forms.Button btnExit;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Label passwordStrengthFail;
     }
 }
 
