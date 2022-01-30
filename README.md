@@ -14,7 +14,7 @@ https://github.com/Swivro/loginwise/releases
 ## Compatibility: ##
 
 * .NET Framework 4.8
-* Compatible with Windows 7 through 11, along with partial Linux support.
+* Windows 7 through 11, along with partial support for Linux via Mono.
 
 ## Details: ##
 
